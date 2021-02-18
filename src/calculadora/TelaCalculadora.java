@@ -356,66 +356,66 @@ public class TelaCalculadora extends javax.swing.JFrame {
 
     
     private void buttonNum0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum0MouseClicked
-        colocarNumero("0");
+        ColocarNumero("0");
         Mostrar(r);
     }//GEN-LAST:event_buttonNum0MouseClicked
 
     private void buttonNum1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum1MouseClicked
-        colocarNumero("1");
+        ColocarNumero("1");
         numero = "1";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum1MouseClicked
 
     private void buttonNum2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum2MouseClicked
-        colocarNumero("2");
+        ColocarNumero("2");
         numero = "2";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum2MouseClicked
 
     private void buttonNum3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum3MouseClicked
-        colocarNumero("3");
+        ColocarNumero("3");
         numero = "3";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum3MouseClicked
 
     private void buttonNum4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum4MouseClicked
-        colocarNumero("4");
+        ColocarNumero("4");
         numero = "4";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum4MouseClicked
 
     private void buttonNum5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum5MouseClicked
-        colocarNumero("5");
+        ColocarNumero("5");
         numero = "5";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum5MouseClicked
 
     private void buttonNum6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum6MouseClicked
-        colocarNumero("6");
+        ColocarNumero("6");
         numero = "6";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum6MouseClicked
 
     private void buttonNum7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum7MouseClicked
-        colocarNumero("7");
+        ColocarNumero("7");
         numero = "7";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum7MouseClicked
 
     private void buttonNum8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum8MouseClicked
-        colocarNumero("8");
+        ColocarNumero("8");
         numero = "8";        
         Mostrar(r);
     }//GEN-LAST:event_buttonNum8MouseClicked
 
     private void buttonNum9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonNum9MouseClicked
-        colocarNumero("9");
+        ColocarNumero("9");
         numero = "9";
         Mostrar(r);
     }//GEN-LAST:event_buttonNum9MouseClicked
 
     private void buttonVirgulaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonVirgulaMouseClicked
-        colocarNumero(".");
+        ColocarNumero(".");
         Mostrar(r);
     }//GEN-LAST:event_buttonVirgulaMouseClicked
 
@@ -433,28 +433,28 @@ public class TelaCalculadora extends javax.swing.JFrame {
 
     private void buttonMaisMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonMaisMouseClicked
         ve = true;
-        colocarNumero(" + ");
+        ColocarNumero(" + ");
         tipo = "\\+";
         Mostrar(r);
     }//GEN-LAST:event_buttonMaisMouseClicked
 
     private void buttonMenosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonMenosMouseClicked
         ve = true;
-        colocarNumero(" - ");
+        ColocarNumero(" - ");
         tipo = "-";
         Mostrar(r);
     }//GEN-LAST:event_buttonMenosMouseClicked
 
     private void buttonDivisaoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonDivisaoMouseClicked
         ve = true;
-        colocarNumero(" / ");
+        ColocarNumero(" / ");
         tipo = "/";
         Mostrar(r);
     }//GEN-LAST:event_buttonDivisaoMouseClicked
 
     private void buttonMultiplicacaoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buttonMultiplicacaoMouseClicked
         ve = true;
-        colocarNumero(" x ");
+        ColocarNumero(" x ");
         tipo = "x";
         Mostrar(r);
     }//GEN-LAST:event_buttonMultiplicacaoMouseClicked
@@ -495,7 +495,7 @@ public class TelaCalculadora extends javax.swing.JFrame {
         return r;
     }
     
-    public void colocarNumero(String v){
+    public void ColocarNumero(String v){
         
         if(r == null){
             r = v;
